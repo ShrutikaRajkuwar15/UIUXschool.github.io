@@ -2008,12 +2008,14 @@ purple-button:hover{
 }
 
 .image-44-icon {
-  margin-left: -1059px;
-  width: 1038px;
+  /* margin-left: -1059px; */
+  /* width: 1038px; */
+  width: 500px;
 }
 .frame-child21,
 .frame-child22 {
-  width: 1080px;
+  /* width: 1080px; */
+  width: 500px;
 }
 .frame-child22 {
   width: 708px;

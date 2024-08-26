@@ -51,3 +51,27 @@ $(document).ready(function(){
         interval: 2000 // 2 seconds
     });
 });
+
+
+// AOS.refresh();
+AOS.init();
+
+// Hover button javascript code to display msg below button
+document.addEventListener("DOMContentLoaded", function() {
+    const button = document.querySelectorAll(".ButtonMsg");
+    const paragraphs = document.querySelectorAll(".hidden-Paragraph");
+
+    button.forEach((button, index) => {
+        const paragraph = paragraphs[index];
+    
+
+    button.addEventListener("mouseover", function() {
+        paragraph.style.display = "block";
+    });
+
+    button.addEventListener("mouseout", function() {
+        paragraph.style.display = "none";
+    });
+});
+});
+// Hover button javascript end
